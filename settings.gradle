@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Start Screen"
-include ':app'
+rootProject.name = "Game"
+include ':game'
