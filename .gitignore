@@ -13,3 +13,4 @@ gradle
 .cxx
 local.properties
 game
+gradle.properties
