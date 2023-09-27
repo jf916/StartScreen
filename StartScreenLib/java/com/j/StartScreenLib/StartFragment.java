@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.j.game.R;
+import com.j.game.R; //(import your own games R class here)
 
 public class StartFragment extends Fragment {
 

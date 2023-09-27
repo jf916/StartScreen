@@ -2,10 +2,7 @@
 
 ## how to use
 
-clone into game source code folder using
-```
-git clone https://github.com/jf916/StartScreen.git
-```
+download into the root your game source code folder
 
 then add the following lines into your build.gradle file
 ```

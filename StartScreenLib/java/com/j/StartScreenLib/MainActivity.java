@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.j.game.R;
+import com.j.game.R; //(import your own games R class here)
 
 public class MainActivity extends AppCompatActivity {
 
