@@ -1,6 +1,6 @@
-##StartScreenLib for games
+## StartScreenLib for games
 
-##how to use
+## how to use
 
 clone into game source code folder using
 ```
