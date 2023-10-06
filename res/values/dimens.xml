@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height">100dp</dimen>
+    <dimen name="width">300dp</dimen>
+    <dimen name="text">50sp</dimen>
+</resources>

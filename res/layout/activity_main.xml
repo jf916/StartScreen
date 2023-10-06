@@ -7,12 +7,16 @@
     android:fitsSystemWindows="true"
     tools:context="com.j.StartScreenLib.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.j.StartScreenLib.StartFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="282dp" />
+        android:layout_height="match_parent" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

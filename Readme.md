@@ -2,7 +2,19 @@
 
 ## how to use
 
-download into the root your game source code folder
+fork this repository then
+
+clone (THE FORK) into the sourcecode folder using (IF YOUR PROJECT IS ALREADY HOSED ON GIT VCS USE THE SUBMODULE METHOD!!!)
+
+```
+git clone https://github.com/<username>/StartScreen.git
+```
+
+or clone as a submodule (ONLY IF YOUR PROJECT IS ALREADY HOSED ON GIT VCS!!!)
+
+```
+git submodule add https://github.com/<username>/StartScreen StartScreen
+```
 
 then add the following lines into your build.gradle file
 ```
@@ -24,8 +36,8 @@ flavorDimensions += ["start"]
         }
 
         withStart {
-            res.srcDirs = ['../StartScreenLib/res']
-            java.srcDirs = ['../StartScreenLib/java']
+            res.srcDirs = ['../StartScreen/res']
+            java.srcDirs = ['../StartScreen/java']
         }
     }
 ```
