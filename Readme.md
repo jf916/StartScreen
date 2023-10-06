@@ -44,3 +44,7 @@ then add the following lines to your manifest.xml
             </intent-filter>
         </activity>
 ```
+add the following code to your strings.xml
+```
+    <string name="title">(Game Title)</string>
+```
