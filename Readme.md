@@ -56,6 +56,7 @@ then add the following lines to your manifest.xml
             </intent-filter>
         </activity>
 ```
+## about the author.
 ```
                                                    __     ______   ______ 
                                                   /  \   / ____ \ / ____ \
@@ -67,3 +68,5 @@ then add the following lines to your manifest.xml
 (_)_____  _____  _____  _____  _____  _____  _____\____/ \_____/  \_____/
   (_____)(_____)(_____)(_____)(_____)(_____)(_____)                       
 ```
+
+._______166 is a developer who made this repo to make every game developers life easier
