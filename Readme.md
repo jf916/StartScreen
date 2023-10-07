@@ -7,13 +7,13 @@ fork this repository then
 clone (THE FORK) into the sourcecode folder using (IF YOUR PROJECT IS ALREADY HOSED ON GIT VCS USE THE SUBMODULE METHOD!!!)
 
 ```
-git clone https://github.com/<username>/StartScreen.git
+git clone https://github.com/<your_user_name>/StartScreen.git
 ```
 
-or clone as a submodule (ONLY IF YOUR PROJECT IS ALREADY HOSED ON GIT VCS!!!)
+or clone (THE FORK) as a submodule (ONLY IF YOUR PROJECT IS ALREADY HOSED ON GIT VCS!!!)
 
 ```
-git submodule add https://github.com/<username>/StartScreen StartScreen
+git submodule add https://github.com/<your_user_name>/StartScreen StartScreen
 ```
 
 then add the following lines into your build.gradle file
@@ -56,7 +56,13 @@ then add the following lines to your manifest.xml
             </intent-filter>
         </activity>
 ```
-add the following code to your strings.xml
-```
-    <string name="title">(Game Title)</string>
-```
+._______166
+                                                   __     ______   ______ 
+                                                  /  \   / ____ \ / ____ \
+                                                  \/) ) ( (    \/( (    \/
+                                                    | | | (____  | (____  
+                                                    | | |  ___ \ |  ___ \ 
+                                                    | | | (   ) )| (   ) )
+ _                                                __) (_( (___) )( (___) )
+(_)_____  _____  _____  _____  _____  _____  _____\____/ \_____/  \_____/
+  (_____)(_____)(_____)(_____)(_____)(_____)(_____)                       
