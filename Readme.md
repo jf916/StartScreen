@@ -56,7 +56,7 @@ then add the following lines to your manifest.xml
             </intent-filter>
         </activity>
 ```
-## about the author.
+## about the author
 ```
                                                    __     ______   ______ 
                                                   /  \   / ____ \ / ____ \

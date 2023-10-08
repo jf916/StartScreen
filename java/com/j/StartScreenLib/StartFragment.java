@@ -28,7 +28,6 @@ public class StartFragment extends Fragment {
         view.findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(getContext(), "insert code here", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.setComponent(new ComponentName("com.j.game", "com.j.game.GameActivity"));
                 startActivity(intent);
@@ -37,19 +36,17 @@ public class StartFragment extends Fragment {
         view.findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "insert code here", Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(Intent.ACTION_MAIN);
-                //intent.setComponent(new ComponentName("com.j.game", "com.j.game.TutorialActivity"));
-                //startActivity(intent);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.j.game", "com.j.game.TutorialActivity"));
+                startActivity(intent);
             }
         });
         view.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "insert code here", Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(Intent.ACTION_MAIN);
-                //intent.setComponent(new ComponentName("com.j.game", "com.j.game.UserActivity"));
-                //startActivity(intent);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.j.game", "com.j.game.UserActivity"));
+                startActivity(intent);
             }
         });
         view.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
